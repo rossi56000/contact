@@ -1,0 +1,26 @@
+{
+    "name": "rossi56000/contact",
+    "description": "test de module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sébastien Champalaune",
+            "email": "rossi56@hotmail.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rossi56000\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rossi56000\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
